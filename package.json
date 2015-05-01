@@ -1,0 +1,37 @@
+{
+  "name": "hapi-accept-language",
+  "version": "1.0.0",
+  "description": "automagically parses the accept-language header",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:opentable/hapi-accept-language.git"
+  },
+  "keywords": [
+    "hapi"
+  ],
+  "author": "Andy Royle <ajroyle@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opentable/hapi-accept-language/issues"
+  },
+  "homepage": "https://github.com/opentable/hapi-accept-language",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-mocha-test": "^0.10.2",
+    "joi": "^4.7.0",
+    "should": "^3.3.1"
+  },
+  "dependencies": {
+    "accept-language-parser": "^1.0.2"
+  },
+  "peerDependencies": {
+    "hapi": "^8.0.0"
+  }
+}
