@@ -32,6 +32,6 @@
     "accept-language-parser": "^1.0.2"
   },
   "peerDependencies": {
-    "hapi": "^8.0.0"
+    "hapi": ">=8.0.0"
   }
 }
