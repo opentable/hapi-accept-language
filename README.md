@@ -3,7 +3,7 @@
 
 Hapi plugin for automagically parsing the accept-language header, and populating request.pre.language.
 
-Uses the [accept-language-parser](opentable/accept-language-parser) module under the hood
+Uses the [accept-language-parser](https://github.com/opentable/accept-language-parser) module under the hood
 
 installation:
 
